@@ -1,0 +1,35 @@
+# Lo que NUNCA se sube a GitHub, aunque el repositorio sea privado.
+# No borres este archivo.
+
+# Claves, contraseñas y tokens
+.env
+.env.*
+!.env.ejemplo
+*.key
+*.pem
+*.p12
+*.pfx
+secretos/
+credenciales*.json
+token*.txt
+
+# Datos reales de clientes, pacientes o empleados
+clientes-privado/
+
+# Notas personales de Claude Code que no van al repositorio
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Archivos pesados
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.zip
+
+# Basura del sistema y de Python
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc

@@ -25,6 +25,7 @@ No hace falta saber programar. Seguí los pasos en orden.
 | `.agents/skills/` | Las mismas Skills, para Codex | Igual que la anterior: van juntas |
 | `.claude/agents/` | **4 subagentes**: revisor de borradores, investigador, ordenador de facturas y revisor de reglas | Cuando sumás un especialista |
 | `telegram/` | Cómo hablarle desde Telegram y un aviso al celular | Cuando llegás al capítulo de Telegram |
+| `apis/` | Probar tu clave de API (Claude, OpenAI o Gemini) y un asistente de punta a punta: resume con Claude y te avisa por Telegram. Solo si un programa tuyo necesita la API | Cuando llegás al capítulo de APIs |
 | `herramientas/revisar_repo.py` | Un control que revisa que todo esté bien armado y que no haya claves | Antes de cada «push» |
 | `.gitignore` | La lista de lo que **nunca** se sube a GitHub (claves, datos de clientes) | Nunca lo borres |
 | `.claude/settings.json` | Le prohíbe a Claude Code leer tus claves (el `.env` y la carpeta `secretos/`) | Nunca lo borres |

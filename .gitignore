@@ -12,6 +12,10 @@
 secretos/
 credenciales*.json
 token*.txt
+# Permisos de Google (OAuth): son llaves, aunque se vean como archivos comunes
+credentials*.json
+token*.json
+client_secret*.json
 
 # Datos reales de clientes, pacientes o empleados
 clientes-privado/
